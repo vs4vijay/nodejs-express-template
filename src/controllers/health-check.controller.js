@@ -12,7 +12,7 @@ class HealthCheckController {
 
     const response = {
       health_check: true,
-      timestamp: config['TIMESTAMP'],
+      deployed_at: config['DEPLOYED_AT'],
     };
     res.json(response);
   }
